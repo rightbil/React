@@ -9,6 +9,6 @@ const HelloJSX = () => {
     // )
     // the above is the html way , below is the JSX format 
     return React.createElement('div', {id: 'hello', className : 'dummyClass'},
-           React.createElement('h3',null, 'JSX Hello World'))
+           React.createElement('h3',null, 'Functional Compnt JSX Syntax'))
 }
 export default HelloJSX 

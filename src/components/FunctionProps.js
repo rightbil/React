@@ -4,7 +4,13 @@ import React from "react"
 //}
 const FunctionProps = props =>{
 console.log(props)
-return (<h3>Hello , {props.firstName }    { props.lastName } </h3>)
+//return (<h3>Hello , {props.firstName }    { props.lastName } </h3>)
+return (
+<div>
+    <h3>Functional Compnt , {props.firstName }    { props.lastName } </h3>
+{props.children}
+</div>
+)
 
 }
 export default FunctionProps
